@@ -1,3 +1,33 @@
 body{
-    background-color: darkkhaki;
+    background-color: whitesmoke;
+    
+    
+}
+header{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 64px;
+    color: white;
+
+}
+main{
+    float:left;
+    width:calc(66.6666% - 60px);
+    padding:30px;
+}
+aside{
+    float:left;
+    width:calc(33.3333% - 60px);
+    padding:30px;
+}
+button {
+    margin: 10px;
+    border: none;
+}
+button img{
+    width:  75px;
+    
 }
